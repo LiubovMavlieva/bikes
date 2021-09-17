@@ -1,0 +1,7 @@
+@media screen and (max-width: 500px) {
+  .bike-types__slide{
+    display: grid;
+    max-width: 284px;
+    grid-template-rows: max-content 175px max-content;
+  }
+}

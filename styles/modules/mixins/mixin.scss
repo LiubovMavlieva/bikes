@@ -1,0 +1,32 @@
+@mixin title {
+  font: $titleFont;
+  color: $titleColor;
+  width: 460px;
+  letter-spacing: -0.5px;
+}
+
+@mixin titleMobile {
+  font: $titleFontMobile;
+  color: $titleColor;
+  width: 284px;
+  letter-spacing: -0.5px;
+}
+
+@mixin text {
+  font: $textFont;
+  color: $textColor;
+  width: 460px;
+  opacity: .7;
+}
+@mixin textMobile{
+  font: $textFontMobile;
+  color: $textColor;
+  width: 284px;
+  opacity: .7;
+  margin: 40px 0 40px;
+}
+@mixin ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}

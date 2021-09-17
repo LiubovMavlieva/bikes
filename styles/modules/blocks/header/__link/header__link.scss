@@ -1,0 +1,20 @@
+.header__link{
+  color: $titleColor;
+  text-decoration: none;
+  font: $headerFont;
+  cursor: pointer;
+  transition: transform .5s ease-in-out;
+}
+
+.header__link:hover{
+  opacity: .75;
+}
+
+@media screen and (max-width: 500px) {
+  .header__link{
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 1;
+  }
+}

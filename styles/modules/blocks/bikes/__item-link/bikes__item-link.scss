@@ -1,0 +1,29 @@
+.bikes__item-link {
+  float: left;
+  text-align: center;
+  margin-right: 5px;
+  list-style: none;
+  cursor: pointer;
+  background-color: #CACACA;
+  padding: 1px;
+  border-radius: 50%;
+  border: #CACACA 1px solid;
+}
+.bikes__item-link:last-child{
+  margin-right: 0;
+}
+
+.bikes__item-link:hover {
+  background-color: #151515;
+}
+
+.bikes__item-link:active {
+  background-color: #151515;
+  color: #ffffff;
+  outline-width: 7px;
+}
+
+.bikes__item-link:active .bikes__item-link:hover{
+  background-color: #484848;
+  color: #FFFFFF;
+}

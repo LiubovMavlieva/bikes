@@ -1,0 +1,15 @@
+.content_place_bike-types{
+  margin: 0 0 120px 120px;
+}
+
+@media screen and (max-width: 1281px) {
+  .content_place_bike-types{
+    margin: 0 0 90px 90px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .content_place_bike-types{
+    margin: 0 auto;
+  }
+}

@@ -1,0 +1,16 @@
+.button__prev {
+  background-image: url(../../../../../images/arrow-left.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  transition: 0.2s ease-in;
+}
+
+.button__prev {
+  opacity: 0.75;
+}
+
+@media screen and (max-width: 500px) {
+  .button__prev {
+    background-image: url(../../../../../images/smallprev.svg);
+  }
+}

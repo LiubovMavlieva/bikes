@@ -1,0 +1,18 @@
+.button__next {
+  background-image: url(../../../../images/arow-right.svg);
+  background-position: 19px 15px;
+  background-repeat: no-repeat;
+  transition: 0.2s ease-in;
+}
+
+.button__next:hover {
+  opacity: 0.75;
+}
+
+@media screen and (max-width: 500px) {
+  .button__next {
+    margin-left: 10px;
+    background-image: url(../../../../images/smallnext.svg);
+    background-position: center;
+  }
+}

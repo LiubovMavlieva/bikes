@@ -1,0 +1,13 @@
+.workout__img{
+  grid-column: 2;
+  grid-row: 1/4;
+  width: 100%;
+}
+
+@media screen and (max-width: 1023px) {
+  .workout__img{
+    grid-column: 1;
+    grid-row: 2;
+    max-width: 500px;
+  }
+}

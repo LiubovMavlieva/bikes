@@ -1,0 +1,15 @@
+.workout__links {
+  @include ul;
+  grid-column: 1;
+  display: flex;
+  width: 154px;
+  justify-content: space-between;
+  height: 24px;
+}
+
+@media screen and (max-width: 500px) {
+  .workout__links{
+    width: 127px;
+    justify-self: self-start;
+  }
+}

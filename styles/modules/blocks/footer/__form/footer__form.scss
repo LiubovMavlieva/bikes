@@ -1,0 +1,10 @@
+.footer__form{
+  position: relative;
+  width: 350px;
+}
+
+@media screen and (max-width: 500px) {
+  .footer__form{
+    width: 284px;
+  }
+}

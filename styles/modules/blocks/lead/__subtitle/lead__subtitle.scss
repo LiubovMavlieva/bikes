@@ -1,0 +1,21 @@
+.lead__subtitle{
+  font: $textFont;
+  color: $textColor;
+  max-width: 460px;
+  grid-column: 1;
+  margin: 0 0 50px;
+  opacity: .7;
+}
+
+
+@media screen and (max-width: 1081px) {
+  .lead__subtitle{
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 769px) {
+  .lead__subtitle{
+    @include textMobile;
+  }
+};

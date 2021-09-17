@@ -1,0 +1,9 @@
+.content_place_center{
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 500px) {
+  .content_place_center{
+    margin: 40px auto 0;
+  }
+}

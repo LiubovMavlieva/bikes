@@ -1,0 +1,12 @@
+.bikes__button{
+  background-color: transparent;
+  border: none;
+  font: $textFont;
+  color: $textColor;
+  transition: ease-in .2s;
+  cursor: pointer;
+}
+
+.bikes__button:hover{
+  opacity: .6;
+}

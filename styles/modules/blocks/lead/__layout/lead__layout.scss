@@ -1,0 +1,16 @@
+.lead__layout{
+  max-width: 440px;
+  max-height: 300px;
+  background-color: #f2f2f2;
+  border-radius: 20px;
+  position: sticky;
+  top: 0;
+  left: 0;
+  box-shadow: -20px 60px 220px rgb(0 0 0 / 20%);
+}
+
+@media screen and (max-width: 600px) {
+  .lead__layout{
+    max-height: 160px;
+  }
+}
