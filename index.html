@@ -10,7 +10,7 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/css/splide.min.css" />
 </head>
 
-<body class="page">
+<body class="page page__content">
   <header class="header">
     <nav class="header__menu">
       <ul class="header__menu-list">
@@ -35,13 +35,13 @@
       <img src="./images/moon.svg" alt="Луна" class="switch__img" />
     </div>
   </header>
-  <section class="content">
+  <main class="content">
     <section class="lead content content_place_lead">
       <h1 class="lead__title">Шоссе, ТТ и&nbsp;Грэвел</h1>
       <p class="lead__subtitle">
         Триатлонные старты, горные серпантины или грейвел заезды по живописным маршрутам – нужно только определиться с выбором велосипеда и отправиться в путь.
       </p>
-      <button class="lead__button">Подробнее</button>
+      <button class="lead__button" type="button">Подробнее</button>
       <div class="lead__text-container">
         <p class="lead__text">Cannondale Systemsix</p>
         <img src="./images/line.svg" alt="Линия" class="lead__img-line" />
@@ -75,7 +75,7 @@
               <div class="bike-types__img-container">
                 <img src="./images/highway.png" alt="шоссе" class="bike-types__img" />
                 <img src="./images/Vector.svg" alt="Линия" class="bike-types__img-rectangle" />
-                <img src="./images/highway2.png" alt="шоссе" class="bike-types__img bike-types_type_hidden" />
+                <img src="./images/highway2.png" alt="шоссе" class="bike-types__img bike-types__img_type_hidden" />
               </div>
             </li>
             <li class="splide__slide bike-types__slide">
@@ -86,7 +86,7 @@
               <div class="bike-types__img-container">
                 <img src="./images/gravel.png" alt="шоссе" class="bike-types__img" />
                 <img src="./images/gravelvector.svg" alt="Линия" class="bike-types__img-rectangle" />
-                <img src="./images/gravel2.png" alt="шоссе" class="bike-types__img bike-types_type_hidden" />
+                <img src="./images/gravel2.png" alt="шоссе" class="bike-types__img bike-types__img_type_hidden" />
               </div>
             </li>
             <li class="splide__slide bike-types__slide">
@@ -97,20 +97,20 @@
               <div class="bike-types__img-container">
                 <img src="./images/tt.png" alt="шоссе" class="bike-types__img" />
                 <img src="./images/ttvector.svg" alt="Линия" class="bike-types__img-rectangle" />
-                <img src="./images/tt2.png" alt="шоссе" class="bike-types__img bike-types_type_hidden" />
+                <img src="./images/tt2.png" alt="шоссе" class="bike-types__img bike-types__img_type_hidden" />
               </div>
             </li>
           </ul>
         </div>
         <div class="button splide__arrows">
-          <button class="button__arrow button__prev splide__arrow--prev"></button>
-          <button class="button__arrow button__next splide__arrow--next"></button>
+          <button class="button__arrow button__arrow_type_prev splide__arrow--prev" type="button"></button>
+          <button class="button__arrow button__arrow_type_next splide__arrow--next" type="button"></button>
         </div>
       </div>
     </section>
     <section class="bikes content content_place_center" id="second-link">
       <div class="bikes__header-container">
-        <h3 class="bikes__title">Велосипеды</h3>
+        <h2 class="bikes__title">Велосипеды</h2>
         <ul class="bikes__button-container">
           <li class="bikes__button-item">
             <button class="bikes__button bikes__button_highway" type="button">
@@ -289,7 +289,7 @@
       </div>
     </section>
     <section class="workout content content_place_workout" id="third-link">
-      <h3 class="workout__title">Тренировки</h3>
+      <h2 class="workout__title">Тренировки</h2>
       <p class="workout__text">
         Чтобы найти маршрут для тренировки можно воспользоваться сервисом Komoot, а записать эти тренировки поможет приложение Strava, а также это приложение позволит построить тренировочный план.
       </p>
@@ -307,13 +307,13 @@
       </ul>
       <img src="./images/road.png" alt="Дорога" class="workout__img" />
     </section>
-  </section>
+  </main>
   <footer class="footer">
     <div class="footer__content content content_place_footer">
-      <h3 class="footer__title">Подпишитесь на рассылку —</h3>
-      <form class="footer__form">
-        <input class="footer__form-email" type="email" placeholder="Ваш e-mail" />
-        <input class="footer__form-submit" type="submit" value="" />
+      <h2 class="footer__title">Подпишитесь на рассылку —</h2>
+      <form class="footer__form" name="email-form">
+        <input class="footer__form-email" type="email" placeholder="Ваш e-mail" name="email-unput"/>
+        <input class="footer__form-submit" type="submit" value="" name="submit-input"/>
       </form>
       <div class="footer__container">
         <p class="footer__copyright">© Road Club 2021</p>
@@ -329,7 +329,7 @@
   </footer>
   <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/js/splide.min.js"></script>
   <script src="./scripts/script.js"></script>
-  <script src="scripts/index.js"></script>
+  <script src="./scripts/index.js"></script>
 </body>
 
 </html>

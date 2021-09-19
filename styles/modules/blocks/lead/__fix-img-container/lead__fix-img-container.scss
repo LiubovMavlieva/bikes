@@ -6,7 +6,7 @@
   height: 430px;
 }
 
-@media screen and (max-width: 1281px) {
+@media screen and (max-width: 1400px) {
   .lead__fix-img-container {
     width: 350px;
     height: 340px;
@@ -17,14 +17,14 @@
   .lead__fix-img-container {
     left: -151px;
     width: 300px;
-    height: 280px;
-    top: 45%;
+    height: 230px;
+    top: 53%;
   }
 }
 
 @media screen and (max-width: 900px) {
   .lead__fix-img-container{
-    top: 52%;
+    top: 55%;
   }
 }
 
@@ -36,7 +36,7 @@
   }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 731px) {
   .lead__fix-img-container{
     top: 44%;
     left: -13%;

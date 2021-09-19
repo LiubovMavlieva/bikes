@@ -9,28 +9,17 @@
 @media screen and (max-width: 1281px) {
   .lead{
    column-gap: 175px;
+   grid-template-columns: 350px 1fr;
   }
 }
 
-@media screen and (max-width: 1081px) {
-  .lead{
-    grid-template-columns: 350px 1fr;
-  }
-}
-
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1030px) {
   .lead{
     column-gap: 100px;
   }
 }
 
-@media screen and (max-width: 769px) {
-  .lead{
-    column-gap: 60px;
-  }
-}
-
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 900px) {
   .lead{
     grid-template-columns: 284px;
     justify-content: center;

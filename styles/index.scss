@@ -4,6 +4,7 @@
 
 @import "./modules/blocks/block/block.scss";
 @import "./modules/blocks/page/page.scss";
+@import "./modules/blocks/page/__content/page__content.scss";
 @import "./modules/blocks/page/_theme/page_theme_dark.scss";
 
 @import "./modules/blocks/header/header.scss";
@@ -63,7 +64,7 @@
 @import "./modules/blocks/bike-types/__text/bike-types__text.scss";
 @import "./modules/blocks/bike-types/__text/_theme/bike-types__text_theme_dark.scss";
 @import "./modules/blocks/bike-types/__img/bike-types__img.scss";
-@import "./modules/blocks/bike-types/__img/_type/bike-types_type_hidden.scss";
+@import "./modules/blocks/bike-types/__img/_type/bike-types__img_type_hidden.scss";
 @import "./modules/blocks/bike-types/__img-rectangle/bike-types__img-rectangle.scss";
 @import "./modules/blocks/bike-types/__container/bike-types__container.scss";
 @import "./modules/blocks/bike-types/__gravel/bike-types__gravel.scss";
@@ -74,8 +75,8 @@
 
 @import "./modules/blocks/button/button.scss";
 @import "./modules/blocks/button/__arrow/button__arrow.scss";
-@import "./modules/blocks/button/__next/button__next.scss";
-@import "./modules/blocks/button/__prev/button__prev.scss";
+@import "./modules/blocks/button/__arrow/_type/button__arrow_type_next.scss";
+@import "./modules/blocks/button/__arrow/_type/button__arrow_type_prev.scss";
 
 @import "./modules/blocks/bikes/bikes.scss";
 @import "./modules/blocks/bikes/__container-mobile/bikes__container-mobile.scss";

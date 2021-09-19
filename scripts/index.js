@@ -67,6 +67,7 @@ select.addEventListener('change', function() {
   lastIndex = index;
 });
 
+//
 
 const page = document.querySelector('.page');
 
@@ -146,7 +147,7 @@ themeBtn.addEventListener ('click' , function () {
   });
   workoutLink.forEach((el) => {
     el.classList.toggle("workout__link_theme_dark");
-  });
+  }); 
 })
 
 themeBtnFooter.addEventListener ('click' , function () {

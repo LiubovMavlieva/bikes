@@ -29,6 +29,7 @@
 	transition: all 2s ease;
   color: white;
   z-index: -1;
+  border-radius: 4px;
 }
 .lead__button:hover:before {
 	width: 100%;
@@ -40,11 +41,22 @@
   }
 }
 
-
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1030px) {
   .lead__button{
     margin-bottom: 80px;
+  }
+}
+
+@media screen and (max-width: 831px) {
+  .lead__button{
+    margin-bottom: 10px;
+  }
+}
+
+@media screen and (max-width: 731px) {
+  .lead__button{
     width: 284px;
     height: 46px;
+    margin-bottom: 80px;
   }
 }
