@@ -1,0 +1,21 @@
+.content_place_lead{
+  margin: 20px 0 0 120px;
+}
+
+@media screen and (max-width: 1081px) {
+  .content_place_lead{
+    margin: 20px 0 0 80px;
+  }
+}
+
+@media screen and (max-width:769px) {
+  .content_place_lead{
+    margin: 20px 0 0 50px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .content_place_lead{
+    margin: 40px 0 0;
+  }
+}

@@ -1,0 +1,16 @@
+.bike-types__img-rectangle {
+  width: 100px;
+  height: 40px;
+  background-image: url(../../../../images/rectangle.svg);
+  position: absolute;
+  top: 645px;
+  left: 0;
+}
+
+
+@media screen and (max-width: 500px) {
+  .bike-types__img-rectangle{
+    top: 201px;
+    left: -4px;
+  }
+}

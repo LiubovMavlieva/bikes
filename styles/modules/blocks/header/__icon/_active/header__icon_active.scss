@@ -1,0 +1,11 @@
+.header__icon_active::before {
+  content: "";
+  top: 50%;
+  transform: rotate(-45deg) translate(0px, -50%);
+}
+
+.header__icon_active::after {
+  content: "";
+  bottom: 50%;
+  transform: rotate(45deg) translate(0px, 84%);
+}

@@ -1,0 +1,21 @@
+.content_place_workout{
+  margin: 210px 120px 120px 120px;
+}
+
+@media screen and (max-width: 1300px) {
+  .content_place_workout{
+    margin: 210px 40px 120px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .content_place_workout{
+    margin: 100px 0 60px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .content_place_workout{
+    margin: 0px 0 60px;
+  }
+}

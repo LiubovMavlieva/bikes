@@ -1,0 +1,9 @@
+.lead__text {
+  @include text;
+}
+
+@media screen and (max-width: 900px) {
+  .lead__text{
+    @include textMobile;
+  }
+}

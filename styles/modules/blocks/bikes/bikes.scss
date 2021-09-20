@@ -1,0 +1,9 @@
+.bikes{
+  max-width: 1200px;
+}
+
+@media screen and (max-width: 600px) {
+  .bikes{
+    width: 284px;
+  }
+}

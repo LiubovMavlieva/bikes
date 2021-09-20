@@ -1,0 +1,30 @@
+.workout {
+  display: grid;
+  grid-template-columns: 460px 1fr;
+  column-gap: 160px;
+  max-width: 1200px;
+}
+
+@media screen and (max-width: 1180px) {
+  .workout {
+    column-gap: 80px;
+    grid-template-columns: 350px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .workout {
+    grid-template-columns: 1fr;
+    column-gap: 0;
+    justify-items: center;
+  }
+}
+@media screen and (max-width: 500px) {
+  .workout {
+    grid-template-columns: 284px;
+    column-gap: 0;
+    justify-content: center;
+    padding-top: 40px;
+    border-top: 1px solid #e3e3e3;
+  }
+}

@@ -1,0 +1,12 @@
+.lead__img-fix{
+  width: 100%;
+  border-radius: 20px;
+  object-fit: scale-down;
+  max-height: 300px;
+}
+
+@media screen and (max-width: 1081px) {
+  .lead__img-fix{
+    max-height: 160px;
+  }
+}

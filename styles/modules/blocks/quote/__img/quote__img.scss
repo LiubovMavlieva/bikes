@@ -1,0 +1,18 @@
+.quote__img{
+  grid-row: 1/5;
+  width: 100%
+}
+
+@media screen and (max-width: 700px) {
+  .quote__img{
+    grid-row: 1;
+    width: 450px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .quote__img{
+    grid-row: 1;
+    width: 284px;
+  }
+}

@@ -1,0 +1,13 @@
+.bike-types__text{
+  @include text;
+  opacity: .7;
+  margin: 0 0 80px;
+}
+
+@media screen and (max-width: 500px) {
+  .bike-types__text{
+    @include textMobile;
+    grid-row: 4;
+    margin: 40px 0 0;
+  }
+}

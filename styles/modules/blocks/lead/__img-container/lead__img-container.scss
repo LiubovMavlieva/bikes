@@ -1,0 +1,13 @@
+.lead__img-container{
+  position: relative;
+  grid-column: 2;
+  grid-row: 1/5;
+}
+
+@media screen and (max-width: 731px) {
+  .lead__img-container{
+    grid-column: 1;
+    grid-row: 2;
+    justify-self: end;
+  }
+}

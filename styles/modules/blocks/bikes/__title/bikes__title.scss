@@ -1,0 +1,17 @@
+.bikes__title{
+  @include title;
+  margin: 0;
+}
+
+@media screen and (max-width: 600px) {
+  .bikes__title{
+   font-size: 45px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .bikes__title{
+    @include titleMobile;
+    margin-bottom: 40px;
+  }
+}

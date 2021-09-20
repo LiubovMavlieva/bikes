@@ -1,0 +1,10 @@
+.bikes__navigation {
+  display: none;
+}
+
+@media screen and (max-width: 600px) {
+  .bikes__navigation {
+    width: 105px;
+    display: block;
+  }
+}

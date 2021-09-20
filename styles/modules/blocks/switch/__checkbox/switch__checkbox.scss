@@ -1,0 +1,10 @@
+.switch__checkbox {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+}
+
+.switch__checkbox:checked + .switch__slider::before {
+  transform: translateX(19px);
+}

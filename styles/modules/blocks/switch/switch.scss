@@ -1,0 +1,19 @@
+.switch{
+  position: relative;
+  display: grid;
+  grid-template-columns: 28px 44px 19px;
+  width: 150px;
+  height: 24px;
+}
+
+@media screen and (max-width: 1213px) {
+  .switch{
+    margin-right: 25px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .switch{
+    display: none;
+  }
+}

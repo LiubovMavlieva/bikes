@@ -1,0 +1,31 @@
+.header__icon {
+  display: none;
+}
+@media screen and (max-width: 500px) {
+  .header__icon {
+    display: block;
+    position: relative;
+    width: 22px;
+    height: 16px;
+    cursor: pointer;
+    grid-column: 2;
+  }
+  .header__icon::before {
+    content: "";
+    top: 0;
+    left: 0;
+    position: absolute;
+    border-top: 3px solid #151515;
+    width: 100%;
+    transition: all 0.3s ease 0s;
+  }
+  .header__icon::after {
+    bottom: 0;
+    content: "";
+    left: 0;
+    position: absolute;
+    width: 100%;
+    transition: all 0.3s ease 0s;
+    border-top: 3px solid #151515
+  }
+}

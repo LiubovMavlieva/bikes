@@ -1,0 +1,17 @@
+.bikes__img-text {
+  font-family: "Inter", "Arial", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 22px;
+  color: $titleColor;
+  padding-top: 22px;
+}
+
+@media screen and (max-width: 600px) {
+  .bikes__img-text{
+    font: $headerFont;
+    padding-top: 0;
+    text-align: center;
+    margin: 0
+  }
+}

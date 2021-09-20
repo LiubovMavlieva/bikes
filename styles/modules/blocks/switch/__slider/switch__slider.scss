@@ -1,0 +1,30 @@
+.switch__slider {
+  cursor: pointer;
+  position: relative;
+  margin-left: 36px;
+  margin-right: 22px;
+}
+
+.switch__slider::after {
+  content: "";
+  width: 44px;
+  height: 24px;
+  background-color: #fff;
+  border-radius: 15px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.switch__slider::before {
+  content: "";
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: #24b47e;
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  z-index: 1;
+  transition-duration: 300ms;
+}

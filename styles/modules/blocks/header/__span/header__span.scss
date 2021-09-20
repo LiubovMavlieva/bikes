@@ -1,0 +1,11 @@
+@media screen and (max-width: 500px) {
+  .header__span{
+    top: 50%;
+    transform: scale(1) translate(0px, -50%);
+    left: 0;
+    position: absolute;
+    border-top: 3px solid #151515;
+    width: 100%;
+    transition: all 0.3s ease 0s;
+  }
+}

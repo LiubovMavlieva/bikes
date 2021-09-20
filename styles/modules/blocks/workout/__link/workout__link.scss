@@ -1,0 +1,20 @@
+.workout__link {
+  font: $textFont;
+  font-weight: 600;
+  color: $textColor;
+  text-decoration: none;
+  cursor: pointer;
+  transition: ease-in 0.2s;
+}
+
+.workout__link:hover {
+  opacity: 0.75;
+}
+
+@media screen and (max-width: 500px) {
+  .workout__link {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+  }
+}
